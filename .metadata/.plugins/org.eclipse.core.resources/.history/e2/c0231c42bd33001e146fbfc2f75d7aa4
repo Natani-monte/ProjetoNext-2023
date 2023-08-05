@@ -1,0 +1,8 @@
+package teste;
+import java.time.*;
+public class Teste {
+	public static void main(String [] args) {
+		LocalDateTime dataHoraCriacao = LocalDateTime.now();
+		System.out.println(dataHoraCriacao.getDayOfMonth());
+	}
+}
